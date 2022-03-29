@@ -1,6 +1,21 @@
+.aboutus img {
+ height: 200px;
+ width: 300px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: auto;
+}
 
+.aboutus h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Arial,Helvetica,sans-serif;"
+}
 
+/* Above is all the About Us */
 
+/* Below is all the Index */
 
 ul {
     list-style-type: none;
@@ -78,7 +93,12 @@ header img {
  margin-right: auto;
 }
 
-  
+/* Above is all the Index */
+
+
+
+/* Below is all the Splash */
+
 #bodyindex {
     color: white;
     padding: 10px;
