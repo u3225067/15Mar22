@@ -63,6 +63,11 @@ img {
  max-width: 1000px;
  max-height: 1000px;
 }
+
+header img {
+    max-height: 320px;
+    max-width: 320px;
+}
 .main-img {
  height: 500px;
  width: 1000px;
