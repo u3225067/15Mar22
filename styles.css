@@ -52,6 +52,30 @@ li {
     
 }
 
+#Dlogo {
+    height: 200px;
+    width: 200px;
+    padding-left: 550px;
+        
+}
+
+.donatetext {
+    color: black;
+    font-family:serif;
+    text-align: center;
+}
+
+.donatetext h3{
+    word-spacing: 6px;
+    text-align: justify;
+    
+}
+
+.donateguts {
+    
+    image-orientation: 
+}
+
 #bodysplash img {
     position: absolute;
     margin-right: auto;
