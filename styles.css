@@ -42,8 +42,17 @@ li {
     
 }
 
+#donatelogo {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    padding-left: 800px;
+    padding-top: 25px;
+    
+    
+}
 
-#bodyindex img {
+#bodysplash img {
     position: absolute;
     margin-right: auto;
     padding-top: 190px;
@@ -108,7 +117,7 @@ header img {
 
 /* Below is all the Splash */
 
-#bodyindex {
+#bodysplash {
     color: white;
     padding: 10px;
     display: inline-block;
@@ -140,7 +149,7 @@ header img {
 
 }
 
-#bodyindex h1 {
+#bodysplash h1 {
     margin: 20rem auto;
     padding: 0;
     
@@ -150,7 +159,7 @@ header img {
 
 
 
-#bodyindex h1 a {
+#bodysplash h1 a {
     text-decoration: none;
     margin: 20rem auto;
     padding: 0;
