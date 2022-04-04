@@ -233,3 +233,61 @@ header img {
         color: white;
     }
 }
+
+/* above is all the Splash */
+
+/* Below is all the history page */
+
+.historypage {
+    margin: 0;
+    padding: 0;
+    background: #262626;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1280px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.container .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: black;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+
+.container .box .imgBox {
+    position: relative;
+    overflow: hidden;
+}
+
+.container .box .imgBox img {
+    max-width: 100%;
+    height: 290px;
+    transition: transform 2s;
+    
+}
+
+.container .box:hover .imgBox img {
+    transform: scale(1.2)
+} 
+
+
+
+
+
+
+
+
+
+
+
