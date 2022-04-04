@@ -343,19 +343,20 @@ header img {
 }
 
 .form {
-    width: 100%;
+    width: 90%;
     max-width: 600px;   
 }
 
 .input-group {
     margin-bottom: 30px;
+    position: relative;
 }
 
 input, textarea{
     width: 100%;
     padding: 10px;
     outline: 0;
-    border: 1px solid black;
+    border: 3px solid black;
     color: #fff;
     background: transparent;
     font-size: 15px,
@@ -367,14 +368,28 @@ label {
     left: 0;
     top: 0;
     padding: 10px;
-    color: white;
+    color: black;
     cursor: text;
+    transition: 0.2s;
 }
 
+button {
+    padding; 10px 0;
+    color: white;
+    outline: none;
+    background: transparent;
+    border: 3px solid black;
+    width: 100%;
+    cursor: pointer;
+}
 
-
-
-
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+    top: -35px;
+    font-size: 14;
+}
 
 
 
