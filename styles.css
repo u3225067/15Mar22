@@ -22,7 +22,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 
 li {
@@ -63,6 +63,17 @@ li {
     color: black;
     font-family:serif;
     text-align: center;
+}
+
+.donateguts {
+     background-image: url(assets/images/Bimage.jpg);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
 }
 
 .donatetext h3{
@@ -391,11 +402,22 @@ textarea:valid~label {
     font-size: 14;
 }
 
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .input-group{
+    flex-basis: 48%;
+}
+
+/* Above is all the Contact page */
+
+/* Below is all the donate page */
 
 
-
-
-
+}
 
 
 
