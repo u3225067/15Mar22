@@ -325,6 +325,74 @@ header img {
 }
 
 
+/* Above is all the history page */
+
+/* Below is all the Contact page */
+
+
+
+.contact {
+    background-image: url(assets/images/contactbackground.jpg);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+     
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;   
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid black;
+    color: #fff;
+    background: transparent;
+    font-size: 15px,
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: white;
+    cursor: text;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
