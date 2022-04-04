@@ -71,9 +71,25 @@ li {
     
 }
 
-.donateguts {
+#instagram {
+    height: 50px;
+    width: 80px;
+    position:static;
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+#twitter {
+    height: 50px;
+    width: 60px;
     
-    image-orientation: 
+}
+
+#facebook {
+    height: 50px;
+    width: 62px;
+    position: static;
+    padding-left: 10px;
 }
 
 #bodysplash img {
