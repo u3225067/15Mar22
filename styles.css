@@ -416,47 +416,27 @@ textarea:valid~label {
 
 /* Below is all the 2020 page */
 
- .body2020 {
+
+#art {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
     
 }
 
-.body2020 {
+#art  {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: black;
+    background: #222;
 }
-.body2020 .container2{
+
+.container2 {
     position: relative;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    max-width: 1100px;
+    
 }
-
-
-.body2020 .container2 .card{
-    width: 320px;
-    height: 320px;
-    margin: 15px;
-    overflow: hidden;
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
