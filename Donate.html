@@ -11,14 +11,29 @@
 <br>
 
  <header>
-
-    <a href="index.html">
-    <img src="assets/images/CAB%20New%20Logo.png"; alt="logo"; href="index.html">
-     </a>
-     
-     <br><br>
-     
+    <img src="assets/images/CAB%20New%20Logo.png"; a href=index.html>
+   
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="History.html">Festivals</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+        <li><a href="Donate.html">Donate</a></li>
+    
+    
+    </ul>
+    
+    
 </header>
+    
+    <section class="banner">
+    </section>
+    <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    })
+    </script>
      <img src="assets/images/donate-logo.jpg"; alt="Donate Logo"; id="Dlogo">
     
     <body>
@@ -51,3 +66,35 @@ Please complete the form below</h3>
     
     </body>
         
+    <footer> 
+ <ul>
+        <img src="assets/images/Twitter%20logo%20-%20black.png">
+        <li><a href="#">Twitter</a></li>
+        <img src="assets/images/Instagram%20logo.png">
+        <li><a href="#">Instagram</a></li>
+        <img src="assets/images/Facebook%20Logo.png">
+        <li><a href="#">Facebook</a></li>
+    
+    
+    </ul>
+    <div class="search-box">
+        <input class="search-txt" type="text" name="" placeholder="Type to search">
+        <a class="search-btn" href="#">
+        <i class="fas fa-search"></i>
+        </a>
+    
+    </div> 
+    
+    
+
+    <section class="banner2">
+    </section>
+    <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var footer = document.querySelector("footer");
+        footer.classList.toggle("sticky", window.scrollY > 0);
+    })
+    </script>
+    
+    
+    </footer>

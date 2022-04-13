@@ -10,10 +10,10 @@
 <title>Biennial Home Page</title>
 
 <link href="styles.css" rel="stylesheet">
+    <script defer src="https://use.frontawesome.com/realese/v5.0.6/is/all.js"></script>
 <br>
 <header>
-    <img src="assets/images/CAB%20New%20Logo.png"; a href=index.html>
-   
+    <img src="assets/images/CAB%20New%20Logo.png">
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="History.html">Festivals</a></li>
@@ -38,8 +38,6 @@
 <br>
 
 
-
-<br>
 <body id="mainpage">
 
 
@@ -47,7 +45,9 @@
             <img        src="assets/images/greg%20johns%20main%20image.jpg">
             
         </div>
-
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
     
 
 
@@ -55,17 +55,44 @@
 </body>
     <br>
 <footer>
-        <div class="socials">
-            <img src="assets/images/Instagram%20logo.png"; id="instagram">
-            
-            <img src="assets/images/Twitter%20logo%20-%20black.png"; id="twitter">
-            
-            <img src="assets/images/Facebook%20Logo.png"; id="facebook">
-            
-        </div>
+     
+    
+   
+    <ul>
+        <img src="assets/images/Twitter%20logo%20-%20black.png">
+        <li><a href="#">Twitter</a></li>
+        <img src="assets/images/Instagram%20logo.png">
+        <li><a href="#">Instagram</a></li>
+        <img src="assets/images/Facebook%20Logo.png">
+        <li><a href="#">Facebook</a></li>
+    
+    
+    </ul>
+    <div class="search-box">
+        <input class="search-txt" type="text" name="" placeholder="Type to search">
+        <a class="search-btn" href="#">
+        <i class="fas fa-search"></i>
+        </a>
+    
+    </div> 
+    
+    
+
+    <section class="banner2">
+    </section>
+    <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var footer = document.querySelector("footer");
+        footer.classList.toggle("sticky", window.scrollY > 0);
+    })
+    </script>
+    
+     
     
     
     
     </footer>
+    
+    
 
 </html>
