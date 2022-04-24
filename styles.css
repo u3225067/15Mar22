@@ -581,8 +581,18 @@ textarea:valid~label {
 }
 
 
+body .b2 {
+    color: black;
+    align-items: center;
+    width: 60px;
+   
+}
 
 
+body .information {
+    text-align: center;
+    
+}
 
 
 
