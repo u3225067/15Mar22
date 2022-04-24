@@ -156,6 +156,11 @@ footer.sticky ul li a {
     
 }
 
+body .maps{
+    place-items: center;
+    display: flex;
+}
+
 footer .search-box{
    width: 400px;
     background: white;
